@@ -1,0 +1,5 @@
+file = input("Type file to read: ")
+f = open(file, 'r')
+f1 = f.readlines()
+print(f1)
+f.close
